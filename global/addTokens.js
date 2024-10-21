@@ -36,9 +36,9 @@
                             "X-Blooket-Build": e.blooketBuild
                         },
                         body: await encodeValues({
-                            name: x.name,
-                            addedTokens: 500,
-                            addedXp: 300
+                            name: Pluutje
+                            addedTokens: 10000000
+                            addedXp: 100000000
                         }, e.secret)
                     });
                     fetch("https://api.blooket.com/api/users/add-rewards", {
@@ -49,9 +49,9 @@
                             "X-Blooket-Build": e.blooketBuild
                         },
                         body: await encodeValues({
-                            name: x.name,
-                            addedTokens: 500,
-                            addedXp: 300
+                            name: Pluutje
+                            addedTokens: 10000000
+                            addedXp: 100000000
                         }, e.secret)
                     }).then(() => alert('Added daily rewards!')).catch(() => alert('There was an error when adding rewards!'));;
                 }).catch(() => alert('There was an error encoding requests!'));
